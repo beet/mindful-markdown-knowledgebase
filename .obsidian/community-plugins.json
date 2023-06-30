@@ -1,5 +1,7 @@
 [
   "calendar",
   "nldates-obsidian",
-  "obsidian-jump-to-date-plugin"
+  "obsidian-jump-to-date-plugin",
+  "obsidian-tasks-plugin",
+  "table-editor-obsidian"
 ]

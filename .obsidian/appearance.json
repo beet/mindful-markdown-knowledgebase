@@ -1,5 +1,8 @@
 {
   "accentColor": "",
   "cssTheme": "Minimal",
-  "showViewHeader": false
+  "showViewHeader": false,
+  "enabledCssSnippets": [
+    "Tasks"
+  ]
 }
