@@ -1,0 +1,48 @@
+filters:
+  and:
+    - file.folder == "Project notes"
+    - file.name.startsWith("Project - ")
+properties:
+  note.status:
+    displayName: Status
+  note.started:
+    displayName: Started
+  note.last_touched:
+    displayName: Last touched
+  note.due:
+    displayName: Due
+  note.blocker:
+    displayName: Blocker
+  note.area:
+    displayName: Area
+views:
+  - type: table
+    name: All projects
+    order:
+      - file.name
+      - status
+    sort:
+      - property: file.name
+        direction: ASC
+  - type: table
+    name: Active
+    filters:
+      and:
+        - '!status.containsAny("Done", "Cancelled", "Backlogged")'
+    order:
+      - file.name
+      - status
+    sort:
+      - property: file.name
+        direction: ASC
+  - type: table
+    name: Done
+    filters:
+      and:
+        - note.status == "Done"
+    order:
+      - file.name
+      - status
+    sort:
+      - property: file.name
+        direction: ASC

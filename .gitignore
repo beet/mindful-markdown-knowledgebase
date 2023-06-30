@@ -1,0 +1,48 @@
+# Ignore
+.DS_Store
+.trash/*
+Attachments/*
+Clippings/*
+Daily notes/*
+Diagrams/*
+Issue notes/*
+Meeting notes/*
+Monthly notes/*
+Monthly reviews/*
+People/*
+Project notes/*
+Resources/*
+Weekly notes/*
+Weekly reviews/*
+Yearly notes/*
+Yearly reviews/*
+
+# Allow
+!Attachments/README - Attachments.md
+!Daily notes/Daily note template.md
+!Daily notes/README - Daily notes.md
+!Diagrams/README - Diagrams.md
+!Issue notes/Issue note template.md
+!Issue notes/Issues.base
+!Issue notes/README - Issues.md
+!Meeting notes/Meeting note template.md
+!Meeting notes/Meetings.base
+!Meeting notes/README - Meeting notes.md
+!Monthly notes/Monthly note template.md
+!Monthly notes/README - Monthly notes.md
+!Monthly reviews/Monthly review template.md
+!Monthly reviews/README - Monthly reviews.md
+!People/People note template.md
+!Project notes/Project note template.md
+!Project notes/Projects.base
+!Project notes/README - Project notes.md
+!Resources/README - Resources.md
+!Weekly notes/README - Weekly notes.md
+!Weekly notes/Weekly note template.md
+!Weekly reviews/README - Weekly reviews.md
+!Weekly reviews/Weekly review template.md
+!Yearly notes/README - Yearly notes.md
+!Yearly notes/Yearly note template.md
+!Yearly reviews/README - Yearly reviews.md
+!Yearly reviews/Yearly review template.md
+

@@ -1,0 +1,52 @@
+filters:
+  and:
+    - file.folder == "Issue notes"
+    - file.name.startsWith("Issue")
+    - file.name != "Issue note template"
+    - file.name != "Issues.base"
+properties:
+  note.status:
+    displayName: Status
+  note.started:
+    displayName: Started
+  note.last_touched:
+    displayName: Last touched
+  note.due:
+    displayName: Due
+  note.blocker:
+    displayName: Blocker
+  note.area:
+    displayName: Area
+views:
+  - type: table
+    name: All Issues
+    order:
+      - file.name
+      - status
+    sort:
+      - property: file.name
+        direction: ASC
+    columnSize:
+      file.name: 452
+  - type: table
+    name: Active
+    filters:
+      and:
+        - note.status != "Done"
+    order:
+      - file.name
+      - status
+    sort:
+      - property: file.name
+        direction: ASC
+  - type: table
+    name: Done
+    filters:
+      and:
+        - note.status == "Done"
+    order:
+      - file.name
+      - status
+    sort:
+      - property: file.name
+        direction: ASC
