@@ -80,5 +80,6 @@
       ],
       "key": "ArrowUp"
     }
-  ]
+  ],
+  "file-explorer:new-file-in-new-pane": []
 }
