@@ -1,1 +1,11 @@
-{}
+{
+  "readableLineLength": false,
+  "autoPairMarkdown": false,
+  "useTab": false,
+  "tabSize": 2,
+  "autoConvertHtml": false,
+  "alwaysUpdateLinks": true,
+  "trashOption": "local",
+  "attachmentFolderPath": "Attachments",
+  "showInlineTitle": false
+}
