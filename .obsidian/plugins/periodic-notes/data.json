@@ -4,18 +4,18 @@
   "hasMigratedWeeklyNoteSettings": true,
   "daily": {
     "folder": "Daily notes",
-    "template": "Templates/Daily note template",
+    "template": "",
     "enabled": true
   },
   "weekly": {
     "format": "",
     "folder": "Weekly notes",
-    "template": "Templates/Weekly note template.md",
+    "template": "",
     "enabled": true
   },
   "monthly": {
     "format": "",
-    "template": "Templates/Monthly note template.md",
+    "template": "",
     "folder": "Monthly notes",
     "enabled": true
   },
@@ -26,7 +26,7 @@
   },
   "yearly": {
     "format": "",
-    "template": "Templates/Yearly note template.md",
+    "template": "",
     "folder": "Yearly notes",
     "enabled": true
   }

@@ -1,107 +1,115 @@
 # Mindful Markdown Knowledgebase
 
-**Disclaimer:** I'm by no means an expert, our brains are all different, what works for me may not work for you.
+## Quick start
 
-As Chef John would say, it's just a *technique*, not a recipe to follow to the letter.
+This will create the basic structure of notes that are tied together by a logbook:
 
-## Work smarter, not harder
+- Clone this repo into a local dir
 
-* **DRY:** write once, recall often
-* **Context switching:** should be avoided, but is inevitable, so make it less painful
-* **Peace of mind!** 😀
+```
+git clone git@github.com:beet/mindful-markdown-knowledgebase.git
+```
 
-## The system
+- Open as a vault in Obsidian
+  - Will probably need to enable community plugins and make sure the selected plugins are all installed
+  - The system makes extensive use of the Calendar, Periodic Notes, Templater, and the almighty Tasks plugins. 
+- Navigate to the [[Logbook]]
+- Populate from template:
+  - open the command palette with `COMMAND + P`, select "Templates: Insert template", and choose "Templates/Logbook template"
 
-* Mindful
-* Markdown
-* Knowledge Management
+### Working with the log book
 
-### Mindful
+The [[Logbook]] is central to this system, and draws inspiration from [A Guide To Research Logbooks — Heloise F. Stevance](https://www.hfstevance.com/blog/logbooks). It is comprised of headings for year, month, and day, with each day being populated with a bullet point for each project/task being worked in, in a similar fashion to the [Bullet Journal](https://bulletjournal.com/) method, but in a single, flat file.
 
-Borrows elements of reflection and review from **Bullet Journalling**
-
-* Less about doing more things
-* More about being more effective
-* Paradoxically, gets more done
-
-#### Slow is the new fast
-
-> Occasionally you need to waste time for a while to be able to spend it better later. If you’re constantly busy, busy, busy, you don’t have any headspace to reflect on where every daily step is ultimately leading you. Running real fast is no good if it’s into a brick wall.
-
-DHH, [Getting less done](https://m.signalvnoise.com/getting-less-done/)
-
-## Markdown
-
-Plain-text in all the places, forever
-
-* Unstructured data accommodates any system
-* Portable, extensible
-* Timeless
-
-## Knowledge management
-
-A system for _finding_ information, not just filing it away.
-
-> The mind is for having ideas, not holding them
-
-David Allen, creator of Getting Things Done (GTD)
-
-### Pareto's principle
-
-The 20% of things I need to refer to regularly to do 80% of my work.
-
-## The Process
-
-![[Plan Act Log Reflect(2).png]]
-
-### Reflect & plan
-
-Borrows elements from research logbooks
-
-* Driven by logbook
-* Weekly & monthly reviews
-* Sets goals for each week/month
-
-> There is nothing so useless as doing efficiently that which should not be done at all
-
-Peter Drucker
-
-### Act & log
-
-* **Logbook:** an entry for each thing worked on each day
-* **Project pages:** a page for each thing being worked on
-* **Knowledge pages:** a page for anything I need to refer back to more than once
-
-> The only difference between science, and screwing around, is writing things down
-
-Adam Savage, on the origin of "I reject your reality, and substitute my own"
-
-## The logbook
-
-* Headings for year, month, and day
-* Actions like "pick up", "push on", "merge in", "paired up"
-* Links to pages for each thing
-
----
+As I move from one task to the next throughout the day, I create a new bullet point and link to a page using action verbs like "Picking up", "Pushing on with", "Closing in", etc such as:
 
 ```markdown
-# Logbook
-
-## Feb 2021
-
-### Mon 2021-02-22
-
-* Picked up [[Issue 1234 - Fix all the things]]
-* [[Meeting 2021-02-22 - Backend working group]]
-
-### Tue 2021-02-23
-
-* Pushing on with [[Issue 1234 - Fix all the things]]
-* Polished off [[Issue 2345 - Error on checkout]]
+* Wrapping up [[Project - Garden maintenance June 2023]]
+* Picking up [[Project - Mindful Markdown Knowledgebase]]
+* Updating [[Homebrew]]
+* Merging in [[Ticket - All the bugs]]
 ```
+
+Having a chronological log of past work helps me practice the [Bullet Journal Method](https://bulletjournal.com/pages/book):
+
+> Track the past
+> Order the present
+> Design the future
+
+This is achieved by logging the high-level projects & goals that I'm working on from moment-to-moment and day-to-day, reflecting on what I achieved from one week to the next, and from each month to the next, and steering them with purpose towards long-term goals.
+
+#### Daily logging
+
+As I start each new day, I insert a new heading for that day at the _top_ of that month _(in reverse chronological order)_ so I can quickly refer back to what I was working on during the previous days by scanning down the list from top to bottom and pick up where I left off.
+
+- Can start a new day in the logbook by inserting the "Logbook template - new day" template:
+
+```markdown
+#### Sat 2023-07-01
+
+- Started
+```
+
+#### Weekly review
+
+On the first day of each week, I conduct a review of the previous week where I reflect on the work achieved, review any outstanding tasks, and in BuJu fashion re-schedule any that are still relevant, or cancel any that are not.
+
+To conduct a weekly review:
+
+- See [[README - Weekly reviews|Weekly reviews]]
+- Start a new day in the logbook as above
+- Insert the "Logbook template - new weekly review link" template
+- Open the inserted link in a new tab, and follow the instructions
+
+#### Monthly review
+
+On the first day of each month, the first thing I do is conduct a [[README - Monthly reviews|monthly review]] of the previous month. When the first day of the month corresponds with the first day of the week, I'll complete the weekly review first.
+
+Monthly reviews are really an opportunity to aggregate the weekly reviews together into flat lists that give a good bird's eye view of where time and energy went.
+
+To start a new month in the logbook, insert the "Logbook template - new month" template:
+
+```markdown
+### July 2023
+
+- [[Monthly notes/2023-07|July 2023]]
+
+#### Sat 2023-07-01
+
+- Started
+
+```
+
+To start a monthly review:
+
+- Insert the "Logbook template - new monthly review link" template
+- Open the link in a new tab, and follow the instructions
+- I usually use the outline view of the logbook to browse back through the weekly reviews for the month and copy the log entries across to the monthly review
+- Each monthly review is for the *previous* month, so the July monthly review would contain the June log entries
+
+##### TIP: Archiving old months
+
+Each monthly log can grow quite large, and I tend not to refer back further than the previous month after having completed review & reflection, so I typically create a logbook archive page, and move older months into it.
+
+This helps reduce clutter, and makes the logbook page faster and more responsive to work with.
+
+#### Yearly review
+
+- Can start a new yearly review by inserting the "Logbook template - new yearly review" template into the logbook after starting a new day/month/year as per above
+* Open the link in a new tab, and follow the instructions there
+
+### Working with periodic notes
+
+- [ ] TODO: flesh this out a bit with notes about the calendar, and how the daily/weekly/monthly notes and tasks are tied together
+
+### Working with tasks
+
+- [ ] TODO: flesh this out a bit with notes about how to schedule tasks, and how tasks in ad-hoc meeting notes will be picked up automatically
 
 ## Project pages
 
+- [ ] TODO: create a `Projects/` folder with a default template, so you can just create new notes in there and have them populated automatically
+  - Template for inserting links to the logbook
 * Links to resources, like Github issue, related knowledge pages
 * Their own detailed logbook
 * Next actions at top
@@ -142,10 +150,13 @@ confirmed that it's not all of them.
 * A page for each atomic unit of knowledge
 * Back-links between related pages
 
+```
+Had to [[Restore sanitised DB snapshot]] then sort out [[Sorbet]] and move on to [[Deploying test sites]]
+```
 
-> Had to `[[Restore sanitised DB snapshot]]` then sort out `[[Sorbet]]` and move on to `[[Deploying test sites]]`
+## Meeting notes
 
-
+- [ ] TODO: create a dir for meeting notes with a default template and logbook link template
 ## Resources
 
 * [Bullet Journal](https://bulletjournal.com/), a.k.a. BuJo, or BuJitsu
