@@ -1,6 +1,8 @@
 <%* var date = moment(tp.file.title); -%>
 # <% date.format('YYYY') %>
 
+[[Yearly notes/<% moment(tp.file.title).subtract(1, 'y').format('YYYY') %>|⬅️ <% moment(tp.file.title).subtract(1, 'y').format('YYYY') %>]] | [[Yearly notes/<% moment(tp.file.title).add(1, 'y').format('YYYY') %>|<% moment(tp.file.title).add(1, 'y').format('YYYY') %> ➡️]]
+
 ## Goals
 
 - Add your yearly goals here
