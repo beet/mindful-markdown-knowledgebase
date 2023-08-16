@@ -6,7 +6,7 @@
 
 ## Logbook
 
-* **<% tp.date.now('YYYY-MM-DD') %>:** started
+* **<% tp.date.now('YYYY-DD-MM') %>:** started
 
 ## Next actions
 

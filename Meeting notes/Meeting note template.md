@@ -1,8 +1,8 @@
 # <% tp.file.title %>
 
-## People
+## People/Resources
 
-- Names
+- Names/links
 
 ## Tasks
 

@@ -57,15 +57,6 @@ path includes Weekly notes/<% date.format('YYYY-[W]WW') %>
 sort by description
 ```
 
-### 🎯 Monthly goals
-
-[[Monthly notes/<% date.format('YYYY-MM') %>|<% date.format('MMMM YYYY') %> notes]]
-
-```tasks
-path includes Monthly notes/<% date.format('YYYY-MM') %>
-sort by description
-```
-
 ## Tasks
 
 - [ ] Seize the day!
