@@ -41,6 +41,18 @@
     {
       "folder": "Yearly reviews",
       "template": "Yearly reviews/Yearly review template.md"
+    },
+    {
+      "folder": "Meeting notes",
+      "template": "Meeting notes/Meeting note template.md"
+    },
+    {
+      "folder": "Issue notes",
+      "template": "Issue notes/Issue note template.md"
+    },
+    {
+      "folder": "Project notes",
+      "template": "Project notes/Project note template.md"
     }
   ],
   "syntax_highlighting": true,

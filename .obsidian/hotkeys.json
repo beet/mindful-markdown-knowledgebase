@@ -89,12 +89,26 @@
         "Mod"
       ],
       "key": "1"
+    },
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "1"
     }
   ],
   "app:toggle-right-sidebar": [
     {
       "modifiers": [
         "Ctrl",
+        "Mod"
+      ],
+      "key": "2"
+    },
+    {
+      "modifiers": [
+        "Alt",
         "Mod"
       ],
       "key": "2"
@@ -130,6 +144,25 @@
         "Ctrl"
       ],
       "key": "2"
+    }
+  ],
+  "obsidian-excalidraw-plugin:insert-link": [],
+  "obsidian-excalidraw-plugin:insert-link-to-element": [],
+  "editor:toggle-checklist-status": [],
+  "switcher:open": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "O"
+    }
+  ],
+  "darlal-switcher-plus:switcher-plus:open-symbols-active": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "R"
     }
   ]
 }
