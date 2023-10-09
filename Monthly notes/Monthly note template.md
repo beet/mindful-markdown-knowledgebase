@@ -25,38 +25,32 @@ sort by due
 ```
 
 <%* var week = monthStart; -%>
-### Week <% week.format('WW') %>
+### [[Weekly notes/<% week.format('YYYY-[W]WW') %>|Week <% week.format('WW') %>]]
 ```tasks
 path includes Weekly notes/<% week.format('YYYY-[W]WW') %>
-sort by description
 ```
-### Week <% week.add(1, 'week').format('WW') %>
+### [[Weekly notes/<% week.add(1, 'week').format('YYYY-[W]WW') %>|Week <% week.format('WW') %>]]
 
 ```tasks
 path includes Weekly notes/<% week.format('YYYY-[W]WW') %>
-sort by description
 ```
-### Week <% week.add(1, 'week').format('WW') %>
+### [[Weekly notes/<% week.add(1, 'week').format('YYYY-[W]WW') %>|Week <% week.format('WW') %>]]
 
 ```tasks
 path includes Weekly notes/<% week.format('YYYY-[W]WW') %>
-sort by description
 ```
-### Week <% week.add(1, 'week').format('WW') %>
+### [[Weekly notes/<% week.add(1, 'week').format('YYYY-[W]WW') %>|Week <% week.format('WW') %>]]
 
 ```tasks
 path includes Weekly notes/<% week.format('YYYY-[W]WW') %>
-sort by description
 ```
-### Week <% week.add(1, 'week').format('WW') %>
+### [[Weekly notes/<% week.add(1, 'week').format('YYYY-[W]WW') %>|Week <% week.format('WW') %>]]
 
 ```tasks
 path includes Weekly notes/<% week.format('YYYY-[W]WW') %>
-sort by description
 ```
-### Week <% week.add(1, 'week').format('WW') %>
+### [[Weekly notes/<% week.add(1, 'week').format('YYYY-[W]WW') %>|Week <% week.format('WW') %>]]
 
 ```tasks
 path includes Weekly notes/<% week.format('YYYY-[W]WW') %>
-sort by description
 ```

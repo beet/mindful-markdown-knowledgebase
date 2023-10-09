@@ -1,5 +1,7 @@
 # Mindful Markdown Knowledgebase
 
+This is an Obsidian template vault designed to provide a task management system that draws inspiration from the [Bullet Journal](https://bulletjournal.com/) method and [research logbooks](https://www.hfstevance.com/blog/logbooks).
+
 ## Quick start
 
 This will create the basic structure of notes that are tied together by a logbook:
@@ -17,9 +19,17 @@ git clone git@github.com:beet/mindful-markdown-knowledgebase.git
 - Populate from template:
   - open the command palette with `COMMAND + P`, select "Templates: Insert template", and choose "Templates/Logbook template"
 
-### Working with the log book
+### Working with daily notes
 
-The [[Logbook]] is central to this system, and draws inspiration from [A Guide To Research Logbooks — Heloise F. Stevance](https://www.hfstevance.com/blog/logbooks). It is comprised of headings for year, month, and day, with each day being populated with a bullet point for each project/task being worked in, in a similar fashion to the [Bullet Journal](https://bulletjournal.com/) method, but in a single, flat file.
+Daily logging is central to this system, and draws inspiration from [A Guide To Research Logbooks — Heloise F. Stevance](https://www.hfstevance.com/blog/logbooks).
+
+It begins with the core **Daily Notes** plugin, and relies heavily on the **[Periodic Notes](https://github.com/liamcain/obsidian-periodic-notes)** plugin to provide weekly, monthly, and yearly notes, with the [Templater](https://github.com/SilentVoid13/Templater) plugin populating notes from templates as they are created automatically on the fly.
+
+Navigating to today's daily note with a hotkey or the sidebar calendar will create a new daily note under the `Daily notes/` folder, that will be pre-populated with content like:
+
+📌 need to update this from the old logbook page to the new daily notes system:
+
+It is comprised of headings for year, month, and day, with each day being populated with a bullet point for each project/task being worked in, in a similar fashion to the [Bullet Journal](https://bulletjournal.com/) method, but in a single, flat file.
 
 As I move from one task to the next throughout the day, I create a new bullet point and link to a page using action verbs like "Picking up", "Pushing on with", "Closing in", etc such as:
 
@@ -159,8 +169,6 @@ Had to [[Restore sanitised DB snapshot]] then sort out [[Sorbet]] and move on to
 - [ ] TODO: create a dir for meeting notes with a default template and logbook link template
 ## Resources
 
-* [Bullet Journal](https://bulletjournal.com/), a.k.a. BuJo, or BuJitsu
-* [Getting Things Done - David Allen's GTD](https://gettingthingsdone.com/)
-* [Zettelkasten - Wikipedia](https://en.wikipedia.org/wiki/Zettelkasten)
-* [A guide to research logbooks - Heloise](https://hfstevance.com/blog/logbooks)
 * [Obsidian](https://obsidian.md/)
+* [Bullet Journal](https://bulletjournal.com/), a.k.a. BuJo, or BuJitsu. A "mindfulness practice disguised as a productivity system".
+* [A guide to research logbooks - Heloise](https://hfstevance.com/blog/logbooks)
