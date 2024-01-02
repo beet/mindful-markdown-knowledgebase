@@ -9,11 +9,11 @@
 
 ### Do more of
 
-- Foo
+- Consciously plan to do more of the positive things
 
 ### Do less of
 
-- Bar
+- Set an intention to avoid the negative things
 
 ## Future log
 

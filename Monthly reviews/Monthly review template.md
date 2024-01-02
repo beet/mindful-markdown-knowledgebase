@@ -14,6 +14,9 @@
 
 Created <% moment().format('YYYY-MM-DD') %>
 
+- **🏆 WINS:** 
+- **🧠 LEARNINGS:** 
+
 ## Weekly reviews
 
 <%* var week = monthStart; -%>

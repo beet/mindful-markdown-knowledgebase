@@ -1,6 +1,6 @@
 # Mindful Markdown Knowledgebase
 
-This is an Obsidian template vault designed to provide a task management system that draws inspiration from the [Bullet Journal](https://bulletjournal.com/) method and [research logbooks](https://www.hfstevance.com/blog/logbooks).
+This is an Obsidian template vault designed to provide a task management and Personal Knowledge Management, PKM, system that draws inspiration from the [Bullet Journal](https://bulletjournal.com/) method and [research logbooks](https://www.hfstevance.com/blog/logbooks).
 
 ## Quick start
 
@@ -15,9 +15,7 @@ git clone git@github.com:beet/mindful-markdown-knowledgebase.git
 - Open as a vault in Obsidian
   - Will probably need to enable community plugins and make sure the selected plugins are all installed
   - The system makes extensive use of the Calendar, Periodic Notes, Templater, and the almighty Tasks plugins. 
-- Navigate to the [[Logbook]]
-- Populate from template:
-  - open the command palette with `COMMAND + P`, select "Templates: Insert template", and choose "Templates/Logbook template"
+- After enabling the Daily Notes plugin, go to today's daily note, and it should be populated from a template
 
 ### Working with daily notes
 
@@ -25,13 +23,28 @@ Daily logging is central to this system, and draws inspiration from [A Guide To 
 
 It begins with the core **Daily Notes** plugin, and relies heavily on the **[Periodic Notes](https://github.com/liamcain/obsidian-periodic-notes)** plugin to provide weekly, monthly, and yearly notes, with the [Templater](https://github.com/SilentVoid13/Templater) plugin populating notes from templates as they are created automatically on the fly.
 
-Navigating to today's daily note with a hotkey or the sidebar calendar will create a new daily note under the `Daily notes/` folder, that will be pre-populated with content like:
+Navigating to today's daily note with a hotkey or the sidebar calendar will create a new daily note under the `Daily notes/` folder, that will be pre-populated with content from a template:
 
-📌 need to update this from the old logbook page to the new daily notes system:
+* Navigation links to the prev/next daily note
+* Tasks due/completed today
+* Overdue tasks
+* Upcoming tasks this week
+* This week's goals
+* Today's tasks
+* Today's **log**
 
-It is comprised of headings for year, month, and day, with each day being populated with a bullet point for each project/task being worked in, in a similar fashion to the [Bullet Journal](https://bulletjournal.com/) method, but in a single, flat file.
 
-As I move from one task to the next throughout the day, I create a new bullet point and link to a page using action verbs like "Picking up", "Pushing on with", "Closing in", etc such as:
+Having a chronological log of past work helps me practice the [Bullet Journal Method](https://bulletjournal.com/pages/book):
+
+> Track the past,
+> Order the present,
+> Design the future
+
+This is achieved by logging the high-level projects & goals that I'm working on from moment-to-moment and day-to-day, reflecting on what I achieved from one week to the next, and from each month to the next, and steering them with purpose towards long-term goals.
+
+#### Daily logging
+
+As I move from one task to the next throughout the day, I create a new bullet point in the **Log** section at the bottom of today's daily note with a link to a project page using action verbs like "Picking up", "Pushing on with", "Closing in", etc such as:
 
 ```markdown
 * Wrapping up [[Project - Garden maintenance June 2023]]
@@ -40,25 +53,7 @@ As I move from one task to the next throughout the day, I create a new bullet po
 * Merging in [[Ticket - All the bugs]]
 ```
 
-Having a chronological log of past work helps me practice the [Bullet Journal Method](https://bulletjournal.com/pages/book):
-
-> Track the past
-> Order the present
-> Design the future
-
-This is achieved by logging the high-level projects & goals that I'm working on from moment-to-moment and day-to-day, reflecting on what I achieved from one week to the next, and from each month to the next, and steering them with purpose towards long-term goals.
-
-#### Daily logging
-
-As I start each new day, I insert a new heading for that day at the _top_ of that month _(in reverse chronological order)_ so I can quickly refer back to what I was working on during the previous days by scanning down the list from top to bottom and pick up where I left off.
-
-- Can start a new day in the logbook by inserting the "Logbook template - new day" template:
-
-```markdown
-#### Sat 2023-07-01
-
-- Started
-```
+This helps pick up where I left off, and also drives the weekly review.
 
 #### Weekly review
 
@@ -67,9 +62,15 @@ On the first day of each week, I conduct a review of the previous week where I r
 To conduct a weekly review:
 
 - See [[README - Weekly reviews|Weekly reviews]]
-- Start a new day in the logbook as above
 - Insert the "Logbook template - new weekly review link" template
 - Open the inserted link in a new tab, and follow the instructions
+- The weekly review page includes a link to create a weekly note page, where I set goals for the week which will automatically appear in daily notes for that week
+
+##### Weekly notes
+
+The weekly notes is where I set high-level goals for the week, which are aggregated into the monthly notes page.
+
+It shows any tasks scheduled for the week, and the monthly goals from the montly notes page.
 
 #### Monthly review
 
@@ -77,36 +78,30 @@ On the first day of each month, the first thing I do is conduct a [[README - Mon
 
 Monthly reviews are really an opportunity to aggregate the weekly reviews together into flat lists that give a good bird's eye view of where time and energy went.
 
-To start a new month in the logbook, insert the "Logbook template - new month" template:
-
-```markdown
-### July 2023
-
-- [[Monthly notes/2023-07|July 2023]]
-
-#### Sat 2023-07-01
-
-- Started
-
-```
-
 To start a monthly review:
 
 - Insert the "Logbook template - new monthly review link" template
 - Open the link in a new tab, and follow the instructions
-- I usually use the outline view of the logbook to browse back through the weekly reviews for the month and copy the log entries across to the monthly review
 - Each monthly review is for the *previous* month, so the July monthly review would contain the June log entries
+- The monthly review pages includes a link to create a monthly note page where I set goals for the month which will apppear in weekly notes for that month
 
-##### TIP: Archiving old months
+##### Monthly notes
 
-Each monthly log can grow quite large, and I tend not to refer back further than the previous month after having completed review & reflection, so I typically create a logbook archive page, and move older months into it.
+The monthly notes page is where I set high-level goals for the month, which are aggregated into the yearly notes page.
 
-This helps reduce clutter, and makes the logbook page faster and more responsive to work with.
+It shows all scheduled tasks for the month, and aggregates the weekly goals.
 
 #### Yearly review
 
 - Can start a new yearly review by inserting the "Logbook template - new yearly review" template into the logbook after starting a new day/month/year as per above
 * Open the link in a new tab, and follow the instructions there
+* It includes a link to create a yearly note, with a section to set goals for the year, and a future log that aggregates goals from the year's monthly notes
+
+##### Yealy notes
+
+The yearly notes provide a section to intentionally plan to more more of the things that elicited a positive response from the previous year, and less of the things that were negative.
+
+It also creates a **future log** that aggregates the goals from the monthly notes for the year.
 
 ### Working with periodic notes
 
@@ -167,6 +162,8 @@ Had to [[Restore sanitised DB snapshot]] then sort out [[Sorbet]] and move on to
 ## Meeting notes
 
 - [ ] TODO: create a dir for meeting notes with a default template and logbook link template
+* Note that any tasks that are added to meeting notes are automatically treated as being scheduled for that day, and will appear in the daily notes.
+
 ## Resources
 
 * [Obsidian](https://obsidian.md/)

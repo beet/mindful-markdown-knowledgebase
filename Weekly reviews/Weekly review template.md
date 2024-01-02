@@ -12,9 +12,12 @@
 
 ## Previous week's reflection
 
+- **🏆 WINS:** 
+- **🧠 LEARNINGS:** 
+
 > [!Note] Scratchpad:
 > * Copy and paste the contents of the logbook from the following week below as a staging area, and then move the bullet points down into the relevant sections.
-> * Delete this and date headings when done.
+> * Delete this callout when done
 > 
 
 
