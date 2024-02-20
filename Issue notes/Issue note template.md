@@ -4,13 +4,7 @@
 
 * Links
 
-## Logbook
-
-* **<% tp.date.now('YYYY-MM-DD') %>:** started
-
-## Next actions
-
-* [ ] Do something
+## Tasks
 
 ### Today
 ```tasks
@@ -24,6 +18,14 @@ not done
 due before today or scheduled before today
 path includes <% tp.file.title %>
 ```
+
+## Logbook
+
+* **<% tp.date.now('YYYY-MM-DD') %>:** started
+
+## Next actions
+
+* [ ] Do something
 
 ## Notes
 

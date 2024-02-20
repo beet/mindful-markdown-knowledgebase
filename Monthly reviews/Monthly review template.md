@@ -45,3 +45,34 @@ Created <% moment().format('YYYY-MM-DD') %>
 ## Goals
 
 Set your goals for this coming month in [[Monthly notes/<% thisMonth.format('YYYY-MM') %>|<% thisMonth.format('MMMM YYYY') %>]].
+
+<%* var week = prevMonth; -%>
+### [[Weekly notes/<% week.format('YYYY-[W]WW') %>|Week <% week.format('WW') %>]]
+```tasks
+path includes Weekly notes/<% week.format('YYYY-[W]WW') %>
+```
+### [[Weekly notes/<% week.add(1, 'week').format('YYYY-[W]WW') %>|Week <% week.format('WW') %>]]
+
+```tasks
+path includes Weekly notes/<% week.format('YYYY-[W]WW') %>
+```
+### [[Weekly notes/<% week.add(1, 'week').format('YYYY-[W]WW') %>|Week <% week.format('WW') %>]]
+
+```tasks
+path includes Weekly notes/<% week.format('YYYY-[W]WW') %>
+```
+### [[Weekly notes/<% week.add(1, 'week').format('YYYY-[W]WW') %>|Week <% week.format('WW') %>]]
+
+```tasks
+path includes Weekly notes/<% week.format('YYYY-[W]WW') %>
+```
+### [[Weekly notes/<% week.add(1, 'week').format('YYYY-[W]WW') %>|Week <% week.format('WW') %>]]
+
+```tasks
+path includes Weekly notes/<% week.format('YYYY-[W]WW') %>
+```
+### [[Weekly notes/<% week.add(1, 'week').format('YYYY-[W]WW') %>|Week <% week.format('WW') %>]]
+
+```tasks
+path includes Weekly notes/<% week.format('YYYY-[W]WW') %>
+```
