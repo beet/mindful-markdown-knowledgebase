@@ -2,10 +2,9 @@
 
 ## Process
 
-- ~~Start a new day and month in the [[Logbook]] as needed~~
 - Conduct a [[README - Weekly reviews|weekly review]] if the first day of the month is on the first day of the week
 - Insert the "Logbook template - new monthly review link" template into the logbook
-- Open the link in a new tab, and follow the instructions
+- Open the link in a new tab which will populate the page from the [[Monthly review template]], and follow the instructions
 
 ## Recurring task
 

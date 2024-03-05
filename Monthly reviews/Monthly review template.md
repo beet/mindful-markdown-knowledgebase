@@ -20,16 +20,20 @@ Created <% moment().format('YYYY-MM-DD') %>
 ## Weekly reviews
 
 <%* var week = monthStart; -%>
-- [[Weekly review <% week.format('YYYY-[W]WW') %>]]
-- [[Weekly review <% week.add(1, 'week').format('YYYY-[W]WW') %>]]
-- [[Weekly review <% week.add(1, 'week').format('YYYY-[W]WW') %>]]
-- [[Weekly review <% week.add(1, 'week').format('YYYY-[W]WW') %>]]
-- [[Weekly review <% week.add(1, 'week').format('YYYY-[W]WW') %>]]
-- [[Weekly review <% week.add(1, 'week').format('YYYY-[W]WW') %>]]
+- [ ] [[Weekly reviews/Weekly review <% week.format('YYYY-[W]WW') %>]]
+- [ ] [[Weekly reviews/Weekly review <% week.add(1, 'week').format('YYYY-[W]WW') %>]]
+- [ ] [[Weekly reviews/Weekly review <% week.add(1, 'week').format('YYYY-[W]WW') %>]]
+- [ ] [[Weekly reviews/Weekly review <% week.add(1, 'week').format('YYYY-[W]WW') %>]]
+- [ ] [[Weekly reviews/Weekly review <% week.add(1, 'week').format('YYYY-[W]WW') %>]]
+- [ ] [[Weekly reviews/Weekly review <% week.add(1, 'week').format('YYYY-[W]WW') %>]]
 
 > [!Info] Drop target
-> Collect bullet points from the weekly reviews here, then move down into the sections below.
+> Go through the monthly reviews above:
+> * copy their bullet points and paste below
+> * mark the check list as done
+> * move them down into the sections below
 
+📋 Paste here:
 
 ---
 

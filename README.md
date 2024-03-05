@@ -1,6 +1,6 @@
 # Mindful Markdown Knowledgebase
 
-This is an Obsidian template vault designed to provide a task management and Personal Knowledge Management, PKM, system that draws inspiration from the [Bullet Journal](https://bulletjournal.com/) method and [research logbooks](https://www.hfstevance.com/blog/logbooks).
+This is an Obsidian template vault designed to provide a task management and Personal Knowledge Management (PKM) system that draws inspiration from the [Bullet Journal](https://bulletjournal.com/) method and [research logbooks](https://www.hfstevance.com/blog/logbooks).
 
 ## Quick start
 
@@ -17,13 +17,13 @@ git clone git@github.com:beet/mindful-markdown-knowledgebase.git
   - The system makes extensive use of the Calendar, Periodic Notes, Templater, and the almighty Tasks plugins. 
 - After enabling the Daily Notes plugin, go to today's daily note, and it should be populated from a template
 
-### Working with daily notes
+## Working with daily notes
 
 Daily logging is central to this system, and draws inspiration from [A Guide To Research Logbooks — Heloise F. Stevance](https://www.hfstevance.com/blog/logbooks).
 
 It begins with the core **Daily Notes** plugin, and relies heavily on the **[Periodic Notes](https://github.com/liamcain/obsidian-periodic-notes)** plugin to provide weekly, monthly, and yearly notes, with the [Templater](https://github.com/SilentVoid13/Templater) plugin populating notes from templates as they are created automatically on the fly.
 
-Navigating to today's daily note with a hotkey or the sidebar calendar will create a new daily note under the `Daily notes/` folder, that will be pre-populated with content from a template:
+Navigating to today's [[README - Daily notes|daily note]] with a hotkey like COMMAND/CONTROL+T or the sidebar calendar will create a new daily note under the `Daily notes/` folder, that will be pre-populated with content from a template:
 
 * Navigation links to the prev/next daily note
 * Tasks due/completed today
@@ -42,7 +42,7 @@ Having a chronological log of past work helps me practice the [Bullet Journal Me
 
 This is achieved by logging the high-level projects & goals that I'm working on from moment-to-moment and day-to-day, reflecting on what I achieved from one week to the next, and from each month to the next, and steering them with purpose towards long-term goals.
 
-#### Daily logging
+### Daily logging
 
 As I move from one task to the next throughout the day, I create a new bullet point in the **Log** section at the bottom of today's daily note with a link to a project page using action verbs like "Picking up", "Pushing on with", "Closing in", etc such as:
 
@@ -55,24 +55,23 @@ As I move from one task to the next throughout the day, I create a new bullet po
 
 This helps pick up where I left off, and also drives the weekly review.
 
-#### Weekly review
+## Weekly review
 
 On the first day of each week, I conduct a review of the previous week where I reflect on the work achieved, review any outstanding tasks, and in BuJu fashion re-schedule any that are still relevant, or cancel any that are not.
 
-To conduct a weekly review:
+To conduct a [[README - Weekly reviews|weekly review]]:
 
-- See [[README - Weekly reviews|Weekly reviews]]
-- Insert the "Logbook template - new weekly review link" template
+- Open today's daily note, and Insert the "Logbook template - new weekly review link" template into the log section
 - Open the inserted link in a new tab, and follow the instructions
 - The weekly review page includes a link to create a weekly note page, where I set goals for the week which will automatically appear in daily notes for that week
 
-##### Weekly notes
+### Weekly notes
 
-The weekly notes is where I set high-level goals for the week, which are aggregated into the monthly notes page.
+The [[README - Weekly notes|weekly notes]] are where I set high-level goals for the week. The weekly goals appear in the dashboard for each daily note of that week, and are aggregated into the monthly notes page for a future log of upcoming intentions.
 
-It shows any tasks scheduled for the week, and the monthly goals from the montly notes page.
+It shows any tasks scheduled for the week, and the monthly goals from the monthly notes page.
 
-#### Monthly review
+## Monthly review
 
 On the first day of each month, the first thing I do is conduct a [[README - Monthly reviews|monthly review]] of the previous month. When the first day of the month corresponds with the first day of the week, I'll complete the weekly review first.
 
@@ -85,29 +84,25 @@ To start a monthly review:
 - Each monthly review is for the *previous* month, so the July monthly review would contain the June log entries
 - The monthly review pages includes a link to create a monthly note page where I set goals for the month which will apppear in weekly notes for that month
 
-##### Monthly notes
+### Monthly notes
 
-The monthly notes page is where I set high-level goals for the month, which are aggregated into the yearly notes page.
+The [[README - Monthly notes|monthly notes]] page is where I set high-level goals for the month, which are aggregated into the yearly notes page.
 
-It shows all scheduled tasks for the month, and aggregates the weekly goals.
+It shows all scheduled tasks for the month, and aggregates the weekly goals into a future log of intentions.
 
-#### Yearly review
+## Yearly review
 
-- Can start a new yearly review by inserting the "Logbook template - new yearly review" template into the logbook after starting a new day/month/year as per above
+- Can start a new [[README - Yearly reviews|yearly review]] by inserting the "Logbook template - new yearly review" template into the logbook after starting a new day/month/year as per above
 * Open the link in a new tab, and follow the instructions there
 * It includes a link to create a yearly note, with a section to set goals for the year, and a future log that aggregates goals from the year's monthly notes
 
-##### Yealy notes
+### Yealy notes
 
 The yearly notes provide a section to intentionally plan to more more of the things that elicited a positive response from the previous year, and less of the things that were negative.
 
 It also creates a **future log** that aggregates the goals from the monthly notes for the year.
 
-### Working with periodic notes
-
-- [ ] TODO: flesh this out a bit with notes about the calendar, and how the daily/weekly/monthly notes and tasks are tied together
-
-### Working with tasks
+## Working with tasks
 
 - [ ] TODO: flesh this out a bit with notes about how to schedule tasks, and how tasks in ad-hoc meeting notes will be picked up automatically
 
@@ -150,7 +145,7 @@ Started looking into which things are broken,
 confirmed that it's not all of them.
 ```
 
-## Knowledge pages
+## Knowledge/fleeting pages
 
 * A page for each atomic unit of knowledge
 * Back-links between related pages

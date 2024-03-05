@@ -4,7 +4,7 @@
   var thisWeek = moment(weekString);
   var nextWeek = moment(weekString).add(1, 'week');
   var startDate = moment(weekString).subtract(1, 'week');
-  var endDate = moment(weekString).subtract(1, 'week').add(5, 'd'); // #add and #subtract mutate the object
+  var endDate = moment(weekString).subtract(1, 'week').add(5, 'd'); // .add and .subtract mutate the object
 -%>
 # Weekly review week <% thisWeek.format('WW') + ', ' + startDate.format('YYYY-MM-DD') %> ~ <% endDate.format('YYYY-MM-DD') %>
 
