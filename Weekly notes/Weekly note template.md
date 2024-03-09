@@ -7,7 +7,7 @@
 
 [[Weekly notes/<% moment(tp.file.title).subtract(1, 'w').format('YYYY-[W]WW') %>|⬅️ Week <% moment(tp.file.title).subtract(1, 'w').format('WW') %>]] | [[Weekly notes/<% moment(tp.file.title).add(1, 'w').format('YYYY-[W]WW') %>|Week <% moment(tp.file.title).add(1, 'w').format('WW') %> ➡️]]
 
-## Weekly goals
+## 🥅 Weekly goals
 
 - [ ] Task that will appear as a goal in the daily notes from week <% date.format('WW') %>
 

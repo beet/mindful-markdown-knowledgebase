@@ -9,7 +9,7 @@
 
 - [[Yearly notes/<% date.format('YYYY') %>|<% date.format('YYYY') %>]]
 
-## Monthly goals
+## 🥅 Monthly goals
 
 - [ ] Task that will appear as a goal in the daily notes from <% date.format('MMMM YYYY') %>
 

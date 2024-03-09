@@ -38,7 +38,7 @@ sort by due
 sort by scheduled
 ```
 
-### 🔜 Upcoming
+## 🔜 Upcoming
 
 ```tasks
 not done
@@ -48,7 +48,7 @@ sort by scheduled
 sort by due
 ```
 
-### ⏰ Weekly goals
+## 🥅 Weekly goals
 
 [[Weekly notes/<% date.format('YYYY-[W]WW') %>|Week <% date.format('WW') %> notes]]
 

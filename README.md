@@ -33,7 +33,6 @@ Navigating to today's [[README - Daily notes|daily note]] with a hotkey like COM
 * Today's tasks
 * Today's **log**
 
-
 Having a chronological log of past work helps me practice the [Bullet Journal Method](https://bulletjournal.com/pages/book):
 
 > Track the past,
@@ -44,13 +43,14 @@ This is achieved by logging the high-level projects & goals that I'm working on 
 
 ### Daily logging
 
-As I move from one task to the next throughout the day, I create a new bullet point in the **Log** section at the bottom of today's daily note with a link to a project page using action verbs like "Picking up", "Pushing on with", "Closing in", etc such as:
+As I move from one task to the next throughout the day, I create a new bullet point in the **Log** section at the bottom of today's daily note with a link to a project page or meeting note using action verbs like "Picking up", "Pushing on with", "Closing in", etc such as:
 
 ```markdown
 * Wrapping up [[Project - Garden maintenance June 2023]]
 * Picking up [[Project - Mindful Markdown Knowledgebase]]
 * Updating [[Homebrew]]
 * Merging in [[Ticket - All the bugs]]
+* [[Meeting notes/Meeting 2024-03-09 - Sprint planning|Meeting 2024-03-09 - Sprint planning]]
 ```
 
 This helps pick up where I left off, and also drives the weekly review.
@@ -82,7 +82,7 @@ To start a monthly review:
 - Insert the "Logbook template - new monthly review link" template
 - Open the link in a new tab, and follow the instructions
 - Each monthly review is for the *previous* month, so the July monthly review would contain the June log entries
-- The monthly review pages includes a link to create a monthly note page where I set goals for the month which will apppear in weekly notes for that month
+- The monthly review pages includes a link to create a [[README - Monthly notes|monthly note]] page where I set goals for the month which will apppear in weekly notes for that month
 
 ### Monthly notes
 
@@ -92,13 +92,13 @@ It shows all scheduled tasks for the month, and aggregates the weekly goals into
 
 ## Yearly review
 
-- Can start a new [[README - Yearly reviews|yearly review]] by inserting the "Logbook template - new yearly review" template into the logbook after starting a new day/month/year as per above
+- Can start a new [[README - Yearly reviews|yearly review]] by inserting the "Logbook template - new yearly review" template into the logbook
 * Open the link in a new tab, and follow the instructions there
-* It includes a link to create a yearly note, with a section to set goals for the year, and a future log that aggregates goals from the year's monthly notes
+* It includes a link to create a [[README - Yearly notes|yearly note]], with a section to set goals for the year, and a future log that aggregates goals from the year's monthly notes
 
 ### Yealy notes
 
-The yearly notes provide a section to intentionally plan to more more of the things that elicited a positive response from the previous year, and less of the things that were negative.
+The [[README - Yearly notes|yearly notes]] provide a section to intentionally plan to do more of the things that elicited a positive response from the previous year, and less of the things that were negative.
 
 It also creates a **future log** that aggregates the goals from the monthly notes for the year.
 

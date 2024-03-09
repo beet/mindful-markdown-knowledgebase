@@ -46,7 +46,7 @@ Created <% moment().format('YYYY-MM-DD') %>
 ### Other
 
 
-## Goals
+## 🥅 Goals
 
 Set your goals for this coming month in [[Monthly notes/<% thisMonth.format('YYYY-MM') %>|<% thisMonth.format('MMMM YYYY') %>]].
 
