@@ -1,12 +1,10 @@
 # Mindful Markdown Knowledgebase
 
-This is an Obsidian template vault designed to provide a task management and Personal Knowledge Management (PKM) system that draws inspiration from the [Bullet Journal](https://bulletjournal.com/) method and [research logbooks](https://www.hfstevance.com/blog/logbooks).
+This is an [Obsidian](https://obsidian.md/) template vault designed to provide a task management and Personal Knowledge Management (PKM) system that draws inspiration from the [Bullet Journal](https://bulletjournal.com/) method and [research logbooks](https://www.hfstevance.com/blog/logbooks).
 
 ## Quick start
 
-This will create the basic structure of notes that are tied together by a logbook:
-
-- Clone this repo into a local dir
+Clone this repo into a local dir:
 
 ```
 git clone git@github.com:beet/mindful-markdown-knowledgebase.git
@@ -104,7 +102,32 @@ It also creates a **future log** that aggregates the goals from the monthly note
 
 ## Working with tasks
 
-- [ ] TODO: flesh this out a bit with notes about how to schedule tasks, and how tasks in ad-hoc meeting notes will be picked up automatically
+The mighty [Obsidian Tasks](https://github.com/obsidian-tasks-group/obsidian-tasks) plugin provides the basis for managing tasks.
+
+### Tasks in daily notes
+
+Any todo in a daily note is scheduled on that day, and will appear in the various tasks lists.
+
+- The [[README - Daily notes|daily note template]] shows all tasks from all pages that are due on that day
+- It also shows any tasks that are overdue, so you never have to worry about forgetting anything
+
+You can actually add a due date to a task in a daily note to schedule it on a different date.
+
+### Tasks in project pages
+
+The [[README - Project notes|project notes template]]  has a section at the top that shows all tasks that are due today and overdue from anywhere on that page.
+
+It provides a **Next actions** section for defining high-level tasks to move the project forward, which can be given a date when time sensitive.
+
+I quite often create low-level ad-hoc todo lists as I'm working, which can also be given due dates as needed.
+
+Any tasks in any project page with a due date will appear in the daily note for that day.
+
+### Tasks in meeting notes
+
+The Tasks plugin has the option to [use the filename as the scheduled date for undated tasks](https://publish.obsidian.md/tasks/Getting+Started/Use+Filename+as+Default+Date), which when enabled means that any tasks added to meeting notes, which follow the filename convention of "Meeting YYYY-MM-DD - Title", will automatically appear in the daily note for that date.
+
+This allows for rapid logging of action items during meetings, with confidence that they will float up in the daily notes and not be forgotten.
 
 ## Project pages
 
