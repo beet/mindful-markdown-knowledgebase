@@ -9,6 +9,7 @@ Meeting notes/*
 Monthly notes/*
 Monthly reviews/*
 Project notes/*
+Resources/*
 Weekly notes/*
 Weekly reviews/*
 Yearly notes/*
@@ -29,6 +30,7 @@ Yearly reviews/*
 !Monthly reviews/README - Monthly reviews.md
 !Project notes/Project note template.md
 !Project notes/README - Project notes.md
+!Resources/README - Resources.md
 !Weekly notes/Weekly note template.md
 !Weekly notes/README - Weekly notes.md
 !Weekly reviews/Weekly review template.md
