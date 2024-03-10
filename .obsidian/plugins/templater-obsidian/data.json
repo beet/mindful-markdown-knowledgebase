@@ -1,0 +1,66 @@
+{
+  "command_timeout": 5,
+  "templates_folder": "Templates",
+  "templates_pairs": [
+    [
+      "",
+      ""
+    ]
+  ],
+  "trigger_on_file_creation": true,
+  "auto_jump_to_cursor": false,
+  "enable_system_commands": false,
+  "shell_path": "",
+  "user_scripts_folder": "",
+  "enable_folder_templates": true,
+  "folder_templates": [
+    {
+      "folder": "Daily notes",
+      "template": "Daily notes/Daily note template.md"
+    },
+    {
+      "folder": "Weekly notes",
+      "template": "Weekly notes/Weekly note template.md"
+    },
+    {
+      "folder": "Monthly notes",
+      "template": "Monthly notes/Monthly note template.md"
+    },
+    {
+      "folder": "Yearly notes",
+      "template": "Yearly notes/Yearly note template.md"
+    },
+    {
+      "folder": "Weekly reviews",
+      "template": "Weekly reviews/Weekly review template.md"
+    },
+    {
+      "folder": "Monthly reviews",
+      "template": "Monthly reviews/Monthly review template.md"
+    },
+    {
+      "folder": "Yearly reviews",
+      "template": "Yearly reviews/Yearly review template.md"
+    },
+    {
+      "folder": "Meeting notes",
+      "template": "Meeting notes/Meeting note template.md"
+    },
+    {
+      "folder": "Issue notes",
+      "template": "Issue notes/Issue note template.md"
+    },
+    {
+      "folder": "Project notes",
+      "template": "Project notes/Project note template.md"
+    }
+  ],
+  "syntax_highlighting": true,
+  "enabled_templates_hotkeys": [
+    ""
+  ],
+  "startup_templates": [
+    ""
+  ],
+  "enable_ribbon_icon": true
+}

@@ -1,0 +1,18 @@
+/* See https://docs.obsidian.md/Reference/CSS+variables/CSS+variables */
+
+/* A special color for the 'due' component if it's for today */
+.task-list-item[data-task-status-type="TODO"] .task-due[data-task-due="today"] span,
+.task-list-item[data-task-status-type="IN_PROGRESS"] .task-due[data-task-due="today"] span {
+    color: var(--background-primary-alt);
+    background: var(--color-green);
+    border-radius: 10px;
+    padding: 2px 8px;
+}
+
+/* A special color for overdue due dates */
+.task-list-item[data-task-status-type="TODO"] .task-due[data-task-due^="past-"] span,
+.task-list-item[data-task-status-type="IN_PROGRESS"] .task-due[data-task-due^="past-"] span {
+    background: var(--color-red);
+    border-radius: 10px;
+    padding: 2px 8px;
+}
