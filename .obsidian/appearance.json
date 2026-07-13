@@ -1,0 +1,15 @@
+{
+  "accentColor": "",
+  "cssTheme": "Minimal",
+  "showViewHeader": false,
+  "enabledCssSnippets": [
+    "Obsidian Tokyo Night colour scheme",
+    "Tasks",
+    "compact-query"
+  ],
+  "baseFontSize": 14,
+  "monospaceFontFamily": "Menlo",
+  "showRibbon": false
+}
+
+\ No newline at end of file

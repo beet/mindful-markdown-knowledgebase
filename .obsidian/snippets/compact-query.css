@@ -1,0 +1,7 @@
+.internal-query .search-result-file-matches {
+  display: none;
+}
+.internal-query .tree-item-self {
+  padding: 2px 0;
+  font-size: 0.9em;
+}

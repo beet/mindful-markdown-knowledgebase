@@ -1,0 +1,39 @@
+{
+  "prefixedFolders": [
+    {
+      "folder": "Monthly reviews",
+      "prefix": "Monthly",
+      "filenamePrefix": "Monthly",
+      "addCommand": true
+    },
+    {
+      "folder": "Weekly reviews",
+      "prefix": "Weekly",
+      "filenamePrefix": "Weekly",
+      "addCommand": true
+    },
+    {
+      "folder": "Project notes",
+      "prefix": "Project",
+      "filenamePrefix": "Project",
+      "addCommand": true
+    },
+    {
+      "folder": "Meeting notes",
+      "prefix": "Meeting",
+      "filenamePrefix": "Meeting",
+      "addCommand": true
+    },
+    {
+      "folder": "Issue notes",
+      "prefix": "Issue",
+      "filenamePrefix": "Issue",
+      "addCommand": true
+    }
+  ],
+  "forceFileCreation": false,
+  "showModalSuggestions": true,
+  "capitalizeFilename": true,
+  "escapeSymbol": "/",
+  "realPrefixSeparator": " "
+}

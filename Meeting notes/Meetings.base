@@ -1,0 +1,71 @@
+filters:
+  and:
+    - file.folder == "Meeting notes"
+    - file.name.startsWith("Meeting ")
+    - file.name != "Meeting note template"
+properties:
+  note.date:
+    displayName: Date
+  note.type:
+    displayName: Type
+  note.attendees:
+    displayName: Attendees
+views:
+  - type: table
+    name: All meetings
+    order:
+      - file.name
+      - date
+      - type
+      - attendees
+    sort:
+      - property: date
+        direction: DESC
+  - type: table
+    name: 1:1s
+    filters:
+      and:
+        - note.type == "1:1"
+    order:
+      - file.name
+      - date
+      - attendees
+    sort:
+      - property: date
+        direction: DESC
+  - type: table
+    name: Standups
+    filters:
+      and:
+        - note.type == "standup"
+    order:
+      - file.name
+      - date
+      - attendees
+    sort:
+      - property: date
+        direction: DESC
+  - type: table
+    name: Retros
+    filters:
+      and:
+        - note.type == "retro"
+    order:
+      - file.name
+      - date
+      - attendees
+    sort:
+      - property: date
+        direction: DESC
+  - type: table
+    name: Untyped
+    filters:
+      and:
+        - note.type == ""
+    order:
+      - file.name
+      - date
+      - attendees
+    sort:
+      - property: date
+        direction: DESC
